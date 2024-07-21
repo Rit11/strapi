@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_hero_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "HeroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button-link"
+    },
+    "DescriptionText": {
+      "type": "text"
+    }
+  }
+}
